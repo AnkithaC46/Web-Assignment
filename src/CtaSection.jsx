@@ -9,7 +9,7 @@ export default function CtaSection() {
   ];
 
   return (
-   <div className="p-10">
+   <div className="p-10 ">
     <section className="w-full bg-gradient-to-r from-cyan-400 to-sky-500 relative overflow-hidden rounded-md">
       {/* Background Waves */}
       <div className="absolute right-0 bottom-0 w-[500px] h-[500px] bg-transparent border-[100px] border-sky-400/20 rounded-full translate-x-1/3 translate-y-1/3"></div>
