@@ -30,9 +30,9 @@ export default function HashtagPerformance() {
   ];
 
   return (
-    <section className="w-full bg-white py-16 px-6 lg:px-20 text-center">
+    <section className="w-full bg-white py-16 px-6 lg:px-20 text-center min-h[80vh]">
       {/* Heading */}
-      <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+      <h2 className="text-3xl md:text-4xl font-bold text-[#034D82]">
         Track any hashtag(s) Performance
       </h2>
       <p className="text-gray-500 mt-4 max-w-2xl mx-auto">
@@ -54,7 +54,7 @@ export default function HashtagPerformance() {
               {item.icon}
             </div>
             {/* Title */}
-            <h3 className="mt-4 text-lg font-semibold text-gray-900">
+            <h3 className="mt-4 text-lg font-semibold text-[#034D82]">
               {item.title}
             </h3>
             {/* Description */}

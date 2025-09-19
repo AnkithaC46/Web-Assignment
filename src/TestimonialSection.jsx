@@ -44,7 +44,7 @@ export default function TestimonialSection() {
       <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
         {/* Left Content */}
         <div className="lg:w-1/2 text-center lg:text-left">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#034D82] leading-snug">
             Powering the growth of <br /> 100+ business & retailers in
             Indonesia.
           </h2>

@@ -1,5 +1,6 @@
 import React from "react";
 import { CheckCircle } from "lucide-react";
+import { assets } from "./assets/assets";
 
 export default function ScheduleSection() {
   return (
@@ -8,7 +9,7 @@ export default function ScheduleSection() {
         
         {/* Left Content */}
         <div className="lg:w-1/2 text-center lg:text-left">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#034D82] leading-snug">
             Schedule Your Post <br /> Whenever You Want
           </h2>
           <p className="text-gray-600 mt-4">
@@ -38,40 +39,9 @@ export default function ScheduleSection() {
         </div>
 
         {/* Right Side - Laptop Mockup */}
-        <div className="lg:w-1/2">
-          <div className="relative w-full max-w-md mx-auto">
-            {/* Laptop Frame */}
-            <div className="rounded-xl border shadow-lg overflow-hidden">
-              <div className="bg-gray-100 p-4">
-                <div className="grid grid-cols-5 gap-2 text-sm font-medium text-gray-500 mb-3">
-                  <span>MO</span>
-                  <span>TU</span>
-                  <span>WE</span>
-                  <span>TH</span>
-                  <span>FR</span>
-                </div>
-                {/* Calendar Slots */}
-                <div className="grid grid-cols-5 gap-2">
-                  <div className="h-14 bg-yellow-200 rounded-md"></div>
-                  <div className="h-14 bg-orange-200 rounded-md"></div>
-                  <div className="h-14 bg-pink-200 rounded-md"></div>
-                  <div className="h-14 bg-gray-200 rounded-md"></div>
-                  <div className="h-14 bg-yellow-100 rounded-md"></div>
-
-                  <div className="h-14 bg-blue-200 rounded-md col-span-2"></div>
-                  <div className="h-14 bg-green-200 rounded-md"></div>
-                  <div className="h-14 bg-orange-100 rounded-md col-span-2"></div>
-
-                  <div className="h-14 bg-pink-300 rounded-md"></div>
-                  <div className="h-14 bg-yellow-300 rounded-md col-span-2"></div>
-                  <div className="h-14 border-2 border-dashed border-blue-400 rounded-md flex items-center justify-center text-blue-400 font-bold">
-                    +
-                  </div>
-                </div>
-              </div>
-            </div>
+       <div>
+            <img src={assets.lap} alt="" />
           </div>
-        </div>
       </div>
     </section>
   );
