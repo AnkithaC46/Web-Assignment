@@ -9,12 +9,12 @@ export default function CtaSection() {
   ];
 
   return (
-   <div className="p-25">
+   <div className="p-10">
     <section className="w-full bg-gradient-to-r from-cyan-400 to-sky-500 relative overflow-hidden rounded-md">
       {/* Background Waves */}
       <div className="absolute right-0 bottom-0 w-[500px] h-[500px] bg-transparent border-[100px] border-sky-400/20 rounded-full translate-x-1/3 translate-y-1/3"></div>
 
-      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between px-6 lg:px-16 py-12 text-white">
+      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between px-6 lg:px-10 py-12 text-white">
         {/* Left Content */}
         <div className="text-center md:text-left max-w-lg">
           <h2 className="text-3xl md:text-4xl font-bold leading-snug">
